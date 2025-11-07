@@ -1,0 +1,68 @@
+⭐️ START HERE - SIMPLEST WAY
+==================================================
+
+🎯 TWO WAYS TO START:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+METHOD 1: DOUBLE-CLICK (EASIEST!)
+----------------------------------
+
+1. Find this file in Desktop/Convecter:
+   START_NOW.sh
+
+2. Double-click it
+
+3. Follow the prompts:
+   - Drag your PDF/HTML/TXT/DOCX file
+   - Choose format (png/jpg/jpeg/pdf)
+   - Choose style (modern/classic/minimalist/bold)
+
+4. Done! File is converted!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+METHOD 2: TERMINAL (FASTEST!)
+------------------------------
+
+1. Open Terminal (⌘ + Space, type "Terminal")
+
+2. Copy & paste this:
+   cd ~/Desktop/Convecter
+
+3. Convert your file:
+   python3 convert.py ~/Desktop/DWPEVIDENCE2025.pdf png modern
+
+DONE! ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+QUICK EXAMPLES:
+---------------
+
+# Modern style PNG:
+python3 convert.py ~/Desktop/DWPEVIDENCE2025.pdf png modern
+
+# Classic style JPG:
+python3 convert.py ~/Desktop/DWPEVIDENCE2025.pdf jpg classic
+
+# Bold style JPEG:
+python3 convert.py ~/Desktop/DWPEVIDENCE2025.pdf jpeg bold
+
+# Minimalist PDF:
+python3 convert.py ~/Desktop/DWPEVIDENCE2025.pdf pdf minimalist
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT YOU GET:
+-------------
+
+Input formats:  PDF, HTML, TXT, DOCX
+Output formats: PNG, JPG, JPEG, PDF
+Styles: modern, classic, minimalist, bold
+
+All files save to: Desktop/Convecter/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PICK ONE METHOD AND TRY IT NOW! 🚀

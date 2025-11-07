@@ -1,0 +1,12 @@
+{
+  "name": "html-to-png",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert": "node render.js",
+    "snap": "node snap.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.15.0"
+  }
+}

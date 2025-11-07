@@ -1,0 +1,85 @@
+🌐 WEB APP - QUICK GUIDE
+==================================================
+
+✅ WEB APP IS RUNNING NOW!
+Your browser should have opened to: http://localhost:8000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HOW TO USE THE WEB APP:
+-----------------------
+
+1. Click "Upload" tab
+2. Click to upload your file (PDF, HTML, DOCX, TXT)
+3. Choose a style (modern, classic, minimalist, bold)
+4. Click "✨ Generate"
+5. Download your image!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TWO WAYS TO START WEB APP:
+---------------------------
+
+METHOD 1: Double-Click (Easiest!)
+  📁 Find: "🌐 WEB APP.command"
+  👆 Double-click it
+  ✅ Browser opens automatically
+
+METHOD 2: Terminal
+  cd ~/Desktop/Convecter
+  python3 webapp.py
+
+Then open: http://localhost:8000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ACCESS FROM PHONE/TABLET:
+--------------------------
+
+1. Make sure your Mac and phone are on same WiFi
+2. On your phone browser, go to:
+   http://192.168.1.160:8000
+
+   (Your IP may be different - check the terminal output)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+QUICK SHORTCUTS IN CONVECTER FOLDER:
+-------------------------------------
+
+🌐 WEB APP.command
+   → Double-click to start web server
+
+🌐 OPEN WEB APP.html
+   → Double-click to open in browser
+   → (Only works if server is already running)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STOP THE WEB APP:
+------------------
+
+In Terminal window: Press Ctrl+C
+
+Or just close the Terminal window
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TROUBLESHOOTING:
+----------------
+
+"Can't connect to server"
+→ Make sure you started it first!
+→ Double-click "🌐 WEB APP.command"
+
+"Port already in use"
+→ Another app is using port 8000
+→ Try closing other apps or restart your Mac
+
+"Page not found"
+→ Check the URL: http://localhost:8000
+→ Make sure server is running (green text in terminal)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ WEB APP IS NOW LIVE AT: http://localhost:8000 ✨
