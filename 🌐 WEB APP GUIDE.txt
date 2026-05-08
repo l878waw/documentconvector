@@ -20,13 +20,12 @@ HOW TO USE THE WEB APP:
 TWO WAYS TO START WEB APP:
 ---------------------------
 
-METHOD 1: Double-Click (Easiest!)
-  📁 Find: "🌐 WEB APP.command"
-  👆 Double-click it
-  ✅ Browser opens automatically
+METHOD 1: Script (Easiest!)
+  👆 Run: ./launch_webapp.sh
+  ✅ Browser opens automatically at http://localhost:8000
 
 METHOD 2: Terminal
-  cd ~/Desktop/Convecter
+  cd /path/to/documentconvector
   python3 webapp.py
 
 Then open: http://localhost:8000
@@ -36,23 +35,11 @@ Then open: http://localhost:8000
 ACCESS FROM PHONE/TABLET:
 --------------------------
 
-1. Make sure your Mac and phone are on same WiFi
+1. Make sure your computer and phone are on same WiFi
 2. On your phone browser, go to:
-   http://192.168.1.160:8000
+   http://YOUR_IP_ADDRESS:8000
 
-   (Your IP may be different - check the terminal output)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-QUICK SHORTCUTS IN CONVECTER FOLDER:
--------------------------------------
-
-🌐 WEB APP.command
-   → Double-click to start web server
-
-🌐 OPEN WEB APP.html
-   → Double-click to open in browser
-   → (Only works if server is already running)
+   (Check the terminal output for your IP address)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -70,15 +57,15 @@ TROUBLESHOOTING:
 
 "Can't connect to server"
 → Make sure you started it first!
-→ Double-click "🌐 WEB APP.command"
+→ Run: ./launch_webapp.sh or python3 webapp.py
 
 "Port already in use"
 → Another app is using port 8000
-→ Try closing other apps or restart your Mac
+→ Try closing other apps or restart
 
 "Page not found"
 → Check the URL: http://localhost:8000
-→ Make sure server is running (green text in terminal)
+→ Make sure server is running (check terminal output)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
